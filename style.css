@@ -1,0 +1,26 @@
+#formulario {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 425px;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 1px solid #b91717;
+    border-radius: 1em;
+    /* Posicion en el formulario */
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    /*agregamos un fondo de formulario*/
+   background: url(FONDO.jpg); 
+  
+   
+  }
+  /* aqui le dimos color a las letras del formulario y la fuente*/
+  label {
+    color: rgb(255, 255, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+div.invalid-feedback{
+    color: aqua;
+    box-shadow: #c45252;
+}
